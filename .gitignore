@@ -1,0 +1,15 @@
+# exclude wordpress folders
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+sitemap.*
+wp-config.php
+
+# exclude unwanted system files
+*.DS_Store
+*.[Th]humbs.db
+*.Trashes
+*.project
+*.log
+*.sql
