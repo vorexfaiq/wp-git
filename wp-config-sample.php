@@ -26,7 +26,7 @@ define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . WP_ENV);
 define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . WP_ENV.'/wp');
 
 define('WP_CONTENT_DIR', dirname( __FILE__ ) . '/content');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress/wp-git/content');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . WP_ENV . '/content');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
