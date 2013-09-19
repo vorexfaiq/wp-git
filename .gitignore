@@ -1,8 +1,8 @@
 # exclude wordpress folders
-wp-content/backup/*
-wp-content/cache/*
-wp-content/upgrade/*
-wp-content/uploads/*
+content/backup/*
+content/cache/*
+content/upgrade/*
+content/uploads/*
 sitemap.*
 wp-config.php
 
